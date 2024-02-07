@@ -1,0 +1,43 @@
+body{
+    background-color: tan;
+    background: linear-gradient(90deg
+    ,#473100);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.container1{
+    background-color: #656509;
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+
+}
+.card-btn{
+    border: 0;
+    border-radius: 5px;
+    
+}
+button#decrement{
+
+    background-color: rgb(255, 165, 31);
+}
+button#decrement:hover{
+
+    background-color: rgb(161, 97, 0);
+}
+button#reset{
+    background-color: red;
+}
+button#increment{
+    background-color: rgb(64, 224, 64);
+
+}
+button#increment:hover{
+    background-color: rgb(32, 186, 32);
+    
+}
